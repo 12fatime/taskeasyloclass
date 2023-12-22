@@ -1,0 +1,345 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+    max-width: 1400px;
+    margin:  auto;
+    padding: 0px 50px;
+}
+.side-bar{
+    min-height: 100vh;
+    background-color: black;
+    position: fixed;
+    padding:20px ;
+}
+.side-bar ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav{
+    padding: 20px 0px;
+    background-color: skyblue;
+ } 
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar.logo{
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 10px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    padding: 6px 12px;
+    color: white;
+}
+
+.side-bar{
+    display: none;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 20px;
+}
+button{
+    width: 150px;
+    height: 50px;
+    background-color: rgb(91, 192, 91);
+    padding: 5px;
+    color: white;
+    cursor: pointer;
+    border: 1px solid rgb(91, 192, 91);
+}
+.two{
+    width: 100%;
+    height: 600px;
+    background-image: url(https://preview.colorlib.com/theme/easylo/assets/img/hero/h1_hero1.jpg.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+.two button{
+    
+}
+.now-button{
+    background-color: green;
+    color: white;
+    height: 40px;
+    width: 120px;
+    padding: 2px;
+}
+.text h1{
+    color: white;
+    font-size: 50px;
+}
+.text p{
+    color: white;
+    font-size: 30px;
+}
+.table{
+    width: 350px;
+    height: 350px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+.table p{
+    text-align: center;
+    color: gray;
+}
+.table button{
+    /* width: 50%; */
+    /* height: 40px; */
+}
+.third{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.third .write h1{
+    position: relative;
+}
+.third .write h1::after{
+    content: '';
+    position: absolute;
+    top: 55px;
+    left: 200px;
+    background-color: green;
+    width: 150px;
+    height: 3px;
+}
+.third h1{
+    color: rgb(42, 59, 42);
+}
+.third p{
+    color: gray;
+    text-align: center;
+}
+.four{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.four h6{
+    color: green;
+    margin-top: 10px;
+}
+.four h5{
+    color: rgb(42, 59, 42);
+    margin-top: 10px;
+}
+.four p{
+    color: gray;
+    margin-top: 20px;
+}
+.five{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.five img{
+    width: 300px;
+    height: 400px;
+}
+.five .container{
+    margin: 0 auto;
+    width: 400px;
+    height: 400px;
+    background-image: url(https://preview.colorlib.com/theme/easylo/assets/img/gallery/about1.jpg.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.box{
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 280px;
+    top: 250px;
+}
+.box h1{
+    color: white !important;
+    text-align: center !important;
+}
+.box p{
+    color: white !important;
+}
+.five h1{
+    color: rgb(42, 59, 42);
+    font-size: 40px;
+}
+.five p{
+    color: gray;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.five .write{
+    border-bottom: 1px solid grey;
+}
+.five button{
+    background-color: white;
+    color: green;
+    padding: 10px;
+    cursor: pointer;
+}
+.five button:hover{
+   background-color: green;
+   color: white;
+}
+.six{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.six .write h1{
+    position: relative;
+    /* border-bottom: 3px solid green; */
+}
+
+.six .write h1::after{
+    content: '';
+    position: absolute;
+    top: 40px;
+    left: 100px;
+    background-color: green;
+    width: 70px;
+    height: 3px;
+}
+
+
+.six p{
+    text-align: center;
+}
+.seven{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.seven .cards{
+    display: flex;
+    flex-direction: column;
+}
+.seven h5{
+    text-align: center;
+}
+.seven h5:hover{
+    color: green;
+    cursor: pointer;
+}
+.seven p{
+    text-align: center;
+    color: rgb(78, 77, 77);
+    margin-top: 20px;
+}
+ul li::marker{
+    color: green;
+}
+.eight{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.eight img{
+    width: 500px;
+    height: 380px;
+}
+.eight h1{
+    color: rgb(42, 59, 42);
+    font-size: 40px;
+}
+.eight p{
+    color: rgb(78, 77, 77);
+    font-size: 20px;
+}
+.eight .write{
+    border-bottom: 1px solid gray;
+}
+.eight button{
+    background-color: white;
+    color: green;
+    padding: 10px;
+    cursor: pointer;
+}
+.eight button:hover{
+   background-color: green;
+   color: white;
+}
+.nine{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nine .write h1{
+    position: relative;
+}
+.nine .write h1::after{
+    content: '';
+    position: absolute;
+    top: 45px;
+    left: 50px;
+    background-color: green;
+    width: 90px;
+    height: 3px;
+}
+.ten{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+.ten h6{
+    color: gray;
+    margin-top: 10px;
+}
+.ten h3{
+    color: rgb(42, 59, 42);
+    margin-top: 10px;
+    cursor: pointer;
+}
+.ten h3:hover{
+    color: green;
+    margin-top: 10px;
+}
